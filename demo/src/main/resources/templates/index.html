@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天气</title>
+	<!-- 引入 Bootstrap -->
+	<script type="text/javascript" src="/static/bootstrap/js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="/static/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/static/js/index.js"></script>
+	<link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="/static/css/index.css" rel="stylesheet" type="text/css">
+</head>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 column">
+			<div class="page-header">
+				<div class="alert alert-danger">City Not Found !</div>
+				<h3>
+					City Weather
+				</h3>
+				<div class="row">
+					<label class='city-search'>City：
+						<select class="form-control" id='seCity' name="city"></select>
+					</label>
+				</div>
+				<div class="search_result">
+					<table class="table table-condensed">
+						<tbody>
+							<tr>
+								<td>City</td><td id='city_name'></td>
+							</tr>
+							<tr>
+								<td>Updated time</td><td id='update_time'></td>
+							</tr>
+							<tr>
+								<td>Weather</td><td id='weather'></td>
+							</tr>
+							<tr>
+								<td>Temperature</td><td id='temperature'></td>
+							</tr>
+							<tr>
+								<td>Wind</td><td id='wind'></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</html>

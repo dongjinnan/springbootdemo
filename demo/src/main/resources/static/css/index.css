@@ -1,0 +1,27 @@
+.alert-danger {
+    display: none;
+}
+
+select {
+    margin-left: 10px;
+    display: inline-block!important;
+    width: 70%!important;
+}
+
+.city-search {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.search_result {
+    width:300px;
+    margin-top: 20px;
+}
+
+.search_result * {
+    border: dashed 1px;
+}
+
+.search_result table tr td {
+    border: dashed 1px;
+}
